@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, flash
+from flask import Flask, render_template, request, redirect, url_for, flash, send_from_directory
 import os
 
 app = Flask(__name__)
@@ -14,6 +14,12 @@ def home():
 def home_af():
     # Renders the Afrikaans homepage
     return render_template('af.html')
+
+# --- GOOGLE VERIFICATION ROUTE ---
+@app.route('/googleacc48534b94160a1.html')
+def google_verify():
+    # Serves the verification file directly from the static folder to the root URL
+    return send_from_directory('static', 'googleacc48534b94160a1.html')
 
 @app.route('/book', methods=['POST'])
 def book():
