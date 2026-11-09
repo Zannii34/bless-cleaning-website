@@ -4,7 +4,7 @@ The official website for **Bless's Cleaning Service**, based in President Park, 
 
 ## 🚀 Live Website
 You can view the live website here: 
-**[https://Zannii34.github.io/bless-cleaning-website/](https://Zannii34.github.io/bless-cleaning-website/)**
+[https://Zannii34.github.io/bless-cleaning-website/](https://Zannii34.github.io/bless-cleaning-website/)
 
 *(Note: Replace the link above with your actual GitHub Pages link once it is live).*
 
